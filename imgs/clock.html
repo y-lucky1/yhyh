@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            font-size: 16px;
+            color: #9e9e9e;
+            margin-top: 57px;
+            padding-left: 22px;
+        }
+        .first{
+            color: #486ce3;
+        }
+        .list{
+            margin-top: 43px;
+            padding-left: 35px;
+        }
+        .list li{
+            display: flex;
+            align-items: center;
+            margin-top: 34px;
+        }
+        .list .left .time{
+            font-size: 40px;
+            color: #000001;
+        }
+        .list .left .ring{
+            margin-top: 16px;
+            font-size: 14px;
+            color: #000000;
+        }
+        .list .btn{
+            margin-left: 49px;
+        }
+        .list .gray .left .time, .list .gray .left .ring{
+            color: #afafaf;
+        }
+        .footer-btn{
+            position: fixed;
+            right: 38px;
+            bottom: 38px;
+        }
+        .footer-btn .btn-left{
+            margin-right: 29px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="first">闹钟</li>
+            <li>时钟</li>
+            <li>秒表</li>
+            <li>计时</li>
+            <li>
+                <img height="22" src="./imgs/形状 3.png" alt="" srcset="">
+            </li>
+        </ul>
+    </nav>
+    <ul class="list">
+        <li>
+            <div class="left">
+                <div class="time">07:40</div>
+                <div class="ring">周一至周五 | 16小时18分钟后响铃 </div>
+            </div>
+            <div class="btn">
+               <img src="./imgs/开.png" alt="" width="50"> 
+            </div>
+        </li>
+        <li class="gray">
+            <div class="left">
+                <div class="time">07:40</div>
+                <div class="ring">周一至周五 | 16小时18分钟后响铃 </div>
+            </div>
+            <div class="btn">
+               <img src="./imgs/关.png" alt="" width="50"> 
+            </div>
+        </li>
+        <li class="gray">
+            <div class="left">
+                <div class="time">07:40</div>
+                <div class="ring">周一至周五 | 16小时18分钟后响铃 </div>
+            </div>
+            <div class="btn">
+               <img src="./imgs/关.png" alt="" width="50"> 
+            </div>
+        </li>
+    </ul>
+
+    <div class="footer-btn">
+        <img class="btn-left" src="./imgs/形状1.png" alt="" width="50">
+        <img src="./imgs/形状2.png" alt="" width="50">
+    </div>
+</body> 
+</html>
